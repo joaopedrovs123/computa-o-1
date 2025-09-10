@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+#define J 10
+#define A 1
 
 int main() {
     int quantidade_1, quantidade_2;
@@ -14,11 +16,6 @@ int main() {
     printf("Digite a quantidade do item 2:\n");
     scanf("%d", &quantidade_2); 
 
-
-    #define J 10
-    #define A 1
-
-
     valor = ((quantidade_1 + quantidade_2) * (J - A)) / 2;
 
    
@@ -30,3 +27,4 @@ int main() {
 
     return 0;
 }
+
