@@ -23,10 +23,6 @@ int main() {
 
 	media = (soma/i-1);
 
-
-	printf("a media foi %f .\n",media);
-
-
 	printf("digite um valor .\n");
 
 	scanf("%f",&u);
